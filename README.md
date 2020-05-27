@@ -6,7 +6,7 @@ Experimental, work-in-progress.
 
 ## What now?
 
-Make a class that either extends `\TinyPixel\Hooks\Hooks`.
+Make a class that extends `\TinyPixel\Hooks\Hooks`.
 
 Methods in this class are bound to WordPress actions and filters.
 
