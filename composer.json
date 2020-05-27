@@ -1,0 +1,22 @@
+{
+  "name": "tiny-pixel/hooks",
+  "description": "Hooks",
+  "homepage": "https://github.com/pixelcollective/wp-hooks",
+  "type": "wordpress-muplugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kelly Mears",
+      "email": "developers@tinypixel.dev"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "illuminate/support": "^7.13"
+  },
+  "autoload": {
+    "psr-4": {
+      "TinyPixel\\Hooks\\": "./src"
+    }
+  }
+}
